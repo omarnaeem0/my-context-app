@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should find the Text component 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": undefined,
+    },
+    "rendered": Array [],
+    "type": "div",
+  },
+  "type": [Function],
+}
+`;
+
+exports[`Should find the Text component 2`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {
+    "children": "Hello",
+  },
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Hello",
+    },
+    "rendered": Array [
+      "Hello",
+    ],
+    "type": "div",
+  },
+  "type": [Function],
+}
+`;
