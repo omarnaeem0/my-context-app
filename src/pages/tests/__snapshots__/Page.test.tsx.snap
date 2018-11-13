@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Should find the Page component 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "component",
+    "props": Object {
+      "children": [Function],
+    },
+    "rendered": Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {
+        "children": "Hello",
+      },
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Hello",
+        },
+        "rendered": Array [
+          "Hello",
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
