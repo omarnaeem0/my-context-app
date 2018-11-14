@@ -59,9 +59,13 @@ describe('Page', () => {
   });
 
   test(`Should find the Page component`, () => {
+    const PageComp: any = new Page(null);
+    PageComp.context = BB;
+    console.log(PageComp)
     const component = TestRenderer.create(
-      <Page />
+      <PageComp />
     );
+    console.log(component.root);
     const tree = component.toTree();
     expect(tree).toMatchSnapshot();
   })
