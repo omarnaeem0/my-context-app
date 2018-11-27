@@ -2,33 +2,703 @@
 
 exports[`Page Should find the Page component 1`] = `
 Object {
-  "instance": null,
+  "instance": Page {
+    "_reactInternalFiber": FiberNode {
+      "_debugID": 5,
+      "_debugIsCurrentlyTiming": false,
+      "_debugOwner": null,
+      "_debugSource": null,
+      "alternate": null,
+      "child": FiberNode {
+        "_debugID": 6,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": [Circular],
+        "_debugSource": null,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 7,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": null,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 8,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 9,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": "wow",
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": "wow",
+              "ref": null,
+              "return": [Circular],
+              "sibling": null,
+              "stateNode": Object {
+                "isHidden": false,
+                "tag": "TEXT",
+                "text": "wow",
+              },
+              "tag": 6,
+              "type": null,
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "elementType": "div",
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": "wow",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": "wow",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": null,
+            "stateNode": Object {
+              "children": Array [
+                Object {
+                  "isHidden": false,
+                  "tag": "TEXT",
+                  "text": "wow",
+                },
+              ],
+              "isHidden": false,
+              "props": Object {
+                "children": "wow",
+              },
+              "rootContainerInstance": Object {
+                "children": Array [
+                  [Circular],
+                ],
+                "createNodeMock": [Function],
+                "tag": "CONTAINER",
+              },
+              "tag": "INSTANCE",
+              "type": "div",
+            },
+            "tag": 5,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": "wow",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": "wow",
+          },
+          "ref": null,
+          "return": [Circular],
+          "sibling": null,
+          "stateNode": null,
+          "tag": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "effectTag": 1,
+        "elementType": Object {
+          "$$typeof": Symbol(react.context),
+          "_calculateChangedBits": null,
+          "_context": Object {
+            "$$typeof": Symbol(react.context),
+            "Consumer": [Circular],
+            "Provider": Object {
+              "$$typeof": Symbol(react.provider),
+              "_context": [Circular],
+            },
+            "_calculateChangedBits": null,
+            "_currentRenderer": null,
+            "_currentRenderer2": Object {},
+            "_currentValue": undefined,
+            "_currentValue2": undefined,
+          },
+        },
+        "expirationTime": 0,
+        "firstContextDependency": Object {
+          "context": Object {
+            "$$typeof": Symbol(react.context),
+            "Consumer": Object {
+              "$$typeof": Symbol(react.context),
+              "_calculateChangedBits": null,
+              "_context": [Circular],
+            },
+            "Provider": Object {
+              "$$typeof": Symbol(react.provider),
+              "_context": [Circular],
+            },
+            "_calculateChangedBits": null,
+            "_currentRenderer": null,
+            "_currentRenderer2": Object {},
+            "_currentValue": undefined,
+            "_currentValue2": undefined,
+          },
+          "next": null,
+          "observedBits": 1073741823,
+        },
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "children": [Function],
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "children": [Function],
+        },
+        "ref": null,
+        "return": [Circular],
+        "sibling": null,
+        "stateNode": null,
+        "tag": 9,
+        "type": Object {
+          "$$typeof": Symbol(react.context),
+          "_calculateChangedBits": null,
+          "_context": Object {
+            "$$typeof": Symbol(react.context),
+            "Consumer": [Circular],
+            "Provider": Object {
+              "$$typeof": Symbol(react.provider),
+              "_context": [Circular],
+            },
+            "_calculateChangedBits": null,
+            "_currentRenderer": null,
+            "_currentRenderer2": Object {},
+            "_currentValue": undefined,
+            "_currentValue2": undefined,
+          },
+        },
+        "updateQueue": null,
+      },
+      "childExpirationTime": 0,
+      "effectTag": 1,
+      "elementType": [Function],
+      "expirationTime": 0,
+      "firstContextDependency": Object {
+        "context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": Object {
+            "$$typeof": Symbol(react.context),
+            "_calculateChangedBits": null,
+            "_context": [Circular],
+          },
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
+          },
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": Object {},
+          "_currentValue": undefined,
+          "_currentValue2": undefined,
+        },
+        "next": null,
+        "observedBits": 1073741823,
+      },
+      "firstEffect": null,
+      "index": 0,
+      "key": null,
+      "lastEffect": null,
+      "memoizedProps": Object {},
+      "memoizedState": null,
+      "mode": 0,
+      "nextEffect": null,
+      "pendingProps": Object {},
+      "ref": null,
+      "return": FiberNode {
+        "_debugID": 4,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": null,
+        "_debugSource": null,
+        "alternate": null,
+        "child": [Circular],
+        "childExpirationTime": 0,
+        "effectTag": 0,
+        "elementType": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": Object {
+            "$$typeof": Symbol(react.context),
+            "Consumer": Object {
+              "$$typeof": Symbol(react.context),
+              "_calculateChangedBits": null,
+              "_context": [Circular],
+            },
+            "Provider": [Circular],
+            "_calculateChangedBits": null,
+            "_currentRenderer": null,
+            "_currentRenderer2": Object {},
+            "_currentValue": undefined,
+            "_currentValue2": undefined,
+          },
+        },
+        "expirationTime": 0,
+        "firstContextDependency": null,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "children": <Page />,
+          "value": Object {
+            "name": "wow",
+          },
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "children": <Page />,
+          "value": Object {
+            "name": "wow",
+          },
+        },
+        "ref": null,
+        "return": FiberNode {
+          "_debugID": 3,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "effectTag": 0,
+          "elementType": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": Object {
+              "$$typeof": Symbol(react.context),
+              "Consumer": Object {
+                "$$typeof": Symbol(react.context),
+                "_calculateChangedBits": null,
+                "_context": [Circular],
+              },
+              "Provider": [Circular],
+              "_calculateChangedBits": null,
+              "_currentRenderer": null,
+              "_currentRenderer2": Object {},
+              "_currentValue": undefined,
+              "_currentValue2": undefined,
+            },
+          },
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": <Context.Provider
+              value={
+                Object {
+                  "name": "wow",
+                }
+              }
+            >
+              <Page />
+            </Context.Provider>,
+            "value": Object {
+              "Components": Object {
+                "Text": [Function],
+              },
+            },
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": <Context.Provider
+              value={
+                Object {
+                  "name": "wow",
+                }
+              }
+            >
+              <Page />
+            </Context.Provider>,
+            "value": Object {
+              "Components": Object {
+                "Text": [Function],
+              },
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 1,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 1073741823,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "isHidden": false,
+                          "tag": "TEXT",
+                          "text": "wow",
+                        },
+                      ],
+                      "isHidden": false,
+                      "props": Object {
+                        "children": "wow",
+                      },
+                      "rootContainerInstance": [Circular],
+                      "tag": "INSTANCE",
+                      "type": "div",
+                    },
+                  ],
+                  "createNodeMock": [Function],
+                  "tag": "CONTAINER",
+                },
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <Context.Provider
+                      value={
+                        Object {
+                          "Components": Object {
+                            "Text": [Function],
+                          },
+                        }
+                      }
+                    >
+                      <Context.Provider
+                        value={
+                          Object {
+                            "name": "wow",
+                          }
+                        }
+                      >
+                        <Page />
+                      </Context.Provider>
+                    </Context.Provider>,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <Context.Provider
+                      value={
+                        Object {
+                          "Components": Object {
+                            "Text": [Function],
+                          },
+                        }
+                      }
+                    >
+                      <Context.Provider
+                        value={
+                          Object {
+                            "name": "wow",
+                          }
+                        }
+                      >
+                        <Page />
+                      </Context.Provider>
+                    </Context.Provider>,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "elementType": null,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <Context.Provider
+                value={
+                  Object {
+                    "Components": Object {
+                      "Text": [Function],
+                    },
+                  }
+                }
+              >
+                <Context.Provider
+                  value={
+                    Object {
+                      "name": "wow",
+                    }
+                  }
+                >
+                  <Page />
+                </Context.Provider>
+              </Context.Provider>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "isHidden": false,
+                        "tag": "TEXT",
+                        "text": "wow",
+                      },
+                    ],
+                    "isHidden": false,
+                    "props": Object {
+                      "children": "wow",
+                    },
+                    "rootContainerInstance": [Circular],
+                    "tag": "INSTANCE",
+                    "type": "div",
+                  },
+                ],
+                "createNodeMock": [Function],
+                "tag": "CONTAINER",
+              },
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "timeoutHandle": -1,
+            },
+            "tag": 3,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <Context.Provider
+                  value={
+                    Object {
+                      "Components": Object {
+                        "Text": [Function],
+                      },
+                    }
+                  }
+                >
+                  <Context.Provider
+                    value={
+                      Object {
+                        "name": "wow",
+                      }
+                    }
+                  >
+                    <Page />
+                  </Context.Provider>
+                </Context.Provider>,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "sibling": null,
+          "stateNode": null,
+          "tag": 10,
+          "type": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": Object {
+              "$$typeof": Symbol(react.context),
+              "Consumer": Object {
+                "$$typeof": Symbol(react.context),
+                "_calculateChangedBits": null,
+                "_context": [Circular],
+              },
+              "Provider": [Circular],
+              "_calculateChangedBits": null,
+              "_currentRenderer": null,
+              "_currentRenderer2": Object {},
+              "_currentValue": undefined,
+              "_currentValue2": undefined,
+            },
+          },
+          "updateQueue": null,
+        },
+        "sibling": null,
+        "stateNode": null,
+        "tag": 10,
+        "type": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": Object {
+            "$$typeof": Symbol(react.context),
+            "Consumer": Object {
+              "$$typeof": Symbol(react.context),
+              "_calculateChangedBits": null,
+              "_context": [Circular],
+            },
+            "Provider": [Circular],
+            "_calculateChangedBits": null,
+            "_currentRenderer": null,
+            "_currentRenderer2": Object {},
+            "_currentValue": undefined,
+            "_currentValue2": undefined,
+          },
+        },
+        "updateQueue": null,
+      },
+      "sibling": null,
+      "stateNode": [Circular],
+      "tag": 1,
+      "type": [Function],
+      "updateQueue": null,
+    },
+    "_reactInternalInstance": Object {},
+    "context": Object {
+      "Components": Object {
+        "Text": [Function],
+      },
+    },
+    "props": Object {},
+    "refs": Object {},
+    "state": null,
+    "updater": Object {
+      "enqueueForceUpdate": [Function],
+      "enqueueReplaceState": [Function],
+      "enqueueSetState": [Function],
+      "isMounted": [Function],
+    },
+  },
   "nodeType": "component",
   "props": Object {},
   "rendered": Object {
     "instance": null,
     "nodeType": "component",
     "props": Object {
-      "children": [Function],
+      "children": "wow",
     },
     "rendered": Object {
       "instance": null,
-      "nodeType": "component",
+      "nodeType": "host",
       "props": Object {
-        "children": "Hello",
+        "children": "wow",
       },
-      "rendered": Object {
-        "instance": null,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Hello",
-        },
-        "rendered": Array [
-          "Hello",
-        ],
-        "type": "div",
-      },
-      "type": [Function],
+      "rendered": Array [
+        "wow",
+      ],
+      "type": "div",
     },
     "type": [Function],
   },

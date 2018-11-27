@@ -3,6 +3,7 @@ import './App.css';
 import * as Component from './components';
 import { MyProvider } from './context';
 import { Page } from './pages/Page';
+import { MySecondProvider } from './second-context';
 
 const BB = {
   Components: {
@@ -15,7 +16,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <MyProvider value={BB}>
-          <Page/>
+          <MySecondProvider value={{ name: 'Mellow' }}>
+            <Page />
+          </MySecondProvider>
         </MyProvider>
       </div>
     );
